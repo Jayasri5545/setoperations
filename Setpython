@@ -1,0 +1,12 @@
+#Set operations using python
+
+E = {0,2,4,6,8}
+N = {1,2,3,4,5}
+x1= E.union(N)
+x2= E.intersection(N)
+x3= E.difference(N)
+x4= E.symmetric_difference(N)
+print("Union of E and N is",str(x1))
+print("Intersection of E and N is",str(x2))
+print("Difference of E and N is",str(x3))
+print("Symmetric difference of E and N is",str(x4))
